@@ -1,16 +1,10 @@
 [package]
-name = "astrobox-ng-plugin-template-rust"
+name = "astrobox-ng-wit"
 version = "0.1.0"
 edition = "2024"
-
-[lib]
-crate-type = ["cdylib"]
+description = "WIT bindings for AstroBox NG plugin system"
+license = "MIT"
+repository = "https://github.com/AstralSightStudios/AstroBox-NG-wit-crate"
 
 [dependencies]
 wit-bindgen = { version = "0.47.0", features = ["async", "async-spawn"] }
-tracing = "0.1"
-tracing-subscriber = "0.3"
-tracing-appender = "0.2"
-waki = "0.5.1"
-serde_json = "1.0"
-serde = "1.0"
