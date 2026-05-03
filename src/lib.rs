@@ -3,6 +3,7 @@ wit_bindgen::generate!({
     world: "psys-world",
     generate_all,
     pub_export_macro: true,
+    default_bindings_module: "astrobox_ng_wit",
 });
 
 // Re-export common wit-bindgen runtime APIs so downstream crates
