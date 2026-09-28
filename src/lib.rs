@@ -1,6 +1,6 @@
 wit_bindgen::generate!({
     path: "wit",
-    world: "psys-world",
+    world: "psys-world-v4",
     generate_all,
     pub_export_macro: true,
     default_bindings_module: "astrobox_ng_wit",
